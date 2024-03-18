@@ -4,7 +4,7 @@ import "./button.css"
 
 const ButtonList = () => {
 
-    const Button_List = ["All","JavaScript","News","Film Critcisms","Gaming","Music","David Googins","TypeScript","Dramedy","Node","Interview"]
+    const Button_List = ["All","JavaScript","News","Film Critcisms","Gaming","Music","David Googins","TypeScript","Dramedy","Node","Interview","Movies","Jaat","History"]
   return (
     <div className="button">
         {Button_List.map((index,key)=>{

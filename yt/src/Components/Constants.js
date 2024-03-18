@@ -15,3 +15,10 @@ export const USER_ICON =
 export const SEARCH_ICON =
   "https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png";
 
+// Main COntainer
+
+export const GOOGLE_API_KEY = "AIzaSyC8nc8vyoFot14FAWnkyjPGorVLhD_gwCY";
+
+export const YOUTUBE_VIDEOS_API =
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
+  GOOGLE_API_KEY;
